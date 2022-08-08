@@ -24,16 +24,28 @@
     <main>
       <section class="filtersContainer">
         <div id="botoesContainer">
-          <button  class="estiloGeralBotoes estiloGeralBotoes--filter" id="todos">
+          <button
+            class="estiloGeralBotoes estiloGeralBotoes--filter"
+            id="todos"
+          >
             Todos Produtos
           </button>
-          <button  class="estiloGeralBotoes estiloGeralBotoes--filter" id="hortFruti">
+          <button
+            class="estiloGeralBotoes estiloGeralBotoes--filter"
+            id="hortFruti"
+          >
             Hortifruti
           </button>
-          <button class="estiloGeralBotoes estiloGeralBotoes--filter" id="panificadora">
+          <button
+            class="estiloGeralBotoes estiloGeralBotoes--filter"
+            id="panificadora"
+          >
             Panificadora
           </button>
-          <button class="estiloGeralBotoes estiloGeralBotoes--filter"id="laticinio">
+          <button
+            class="estiloGeralBotoes estiloGeralBotoes--filter"
+            id="laticinio"
+          >
             Laticínios
           </button>
         </div>
@@ -58,16 +70,42 @@
         </div>
         <span>R$ 0.00</span>
       </section>
+
       <!-- CONTAINER DE PRODUTOS -->
       <section class="containerVitrine">
         <div class="containerListaProdutos">
-          <ul>
-            
+          <ul></ul>
+        </div>
+      </section>
+      <section class="Carrinho">
+        <div class="Carrinho__Title">
+          <h2>Carrinho</h2>
+        </div>
+        <div class="Carrinho__Container">
+          <ul id="carrinho">
+              
           </ul>
         </div>
+        <div class="quantidade">
+         <h2 class="quantidadeH2">
+          Quantidade
+         </h2>
+         <h2 id="quantidade">
+          0
+         </h2>
+        </div>
+        <div class="valorTotal">
+          <h2>
+           Valor Total
+          </h2>
+          <h2 id="valor">
+           R$ 0,00
+          </h2>
+         </div>
       </section>
     </main>
     <script src="src/js/dataProdutos.js"></script>
     <script src="./src/js/script.js"></script>
   </body>
 </html>
+
