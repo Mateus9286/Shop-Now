@@ -165,10 +165,8 @@ overflow: auto;
         list-style: none;
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-around;
-        margin-top: 30px;
-        width: 100%;
-        overflow: auto;
+        overflow-y: auto;
+        justify-content: space-between;
         }
     }
 
@@ -176,7 +174,7 @@ overflow: auto;
 border-radius: 8px;
 transition: ease-in-out 0.1s;
 width: 16.875rem;
-margin-bottom: 30px;
+margin: 0 0 30px 15px;
 }
 
 .containerListaProdutos ul li:hover {
