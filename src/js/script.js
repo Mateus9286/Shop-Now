@@ -124,7 +124,7 @@ function fitroLaticinio() {
   let laticinio = document.querySelector("#laticinio");
 
   let lacteo = produtos.filter((element, i) => {
-    if (produtos[i].secao == "Laticínio") {
+    if (produtos[i].secao == "Laticinio") {
       return element;
     }
   });
